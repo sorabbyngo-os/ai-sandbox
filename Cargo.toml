@@ -1,0 +1,15 @@
+[package]
+name = "ai-sandbox"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sorabbyngo OS Team"]
+description = "Isolated execution environment for AI agents on Sorabbyngo OS"
+
+[dependencies]
+anyhow = "1"
+thiserror = "1"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+nix = "0.27"
+libc = "0.2"
+seccompiler = "0.4"
